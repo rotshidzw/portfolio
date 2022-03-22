@@ -18,18 +18,18 @@ html {
   order: 0;
   width: 76px;
   height: 20px;
-  margin: 0 0;
+  margin: 15px;
   font-family: "Crete Round", Arial, Helvetica, sans-serif;
-  font-size: 30px;
-  font-weight: 500;
-  line-height: 15px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 10px;
 
   /* Primary/B400 */
   color: #6070ff;
   text-align: center;
 }
 
-.mylogo {
+.links {
   text-decoration: none;
 }
 
@@ -61,9 +61,9 @@ h1 {
   flex-grow: 0;
   align-items: center;
   order: 0;
-  width: 327px;
+  width: 325px;
   height: 150px;
-  margin: 12px 0;
+  margin: 12px;
 
   /* Header / 2 */
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
@@ -76,7 +76,7 @@ h1 {
   color: #172b4d;
 }
 
-article {
+section {
   position: static;
   box-sizing: border-box;
   display: flex;
@@ -89,7 +89,7 @@ article {
 h2 {
   position: static;
   flex: none;
-  width: 350px;
+  width: 330px;
 
   /* Primary/B300 */
   height: auto;
@@ -159,16 +159,17 @@ li {
 
 .media-icon {
   position: static;
-  top: 500px;
-  left: 12px;
+  top: 20px;
+  left: 51px;
 
   /* Inside auto layout */
   flex: none;
   flex-grow: 0;
   order: 3;
-  width: 340px;
+  width: 325px;
   height: 20px;
-  margin: 12px 0;
+  margin: 0px;
+  padding:0%;
 }
 
 .icons:hover {
@@ -177,7 +178,7 @@ li {
 
 .hamburger {
   position: absolute;
-  right: 24px;
+  right: 34px;
   width: 16px;
   height: 12px;
 }
@@ -189,4 +190,5 @@ li {
 button {
   padding: 0;
   border: none;
+
 }
