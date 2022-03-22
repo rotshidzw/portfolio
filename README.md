@@ -49,13 +49,10 @@ Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page](https://github.com/rotshidzw/Hello-microverse/issues).
 
 ## Show your support
-
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
--https://github.com/JauJau088
--https://github.com/chelmerrox
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
