@@ -168,8 +168,8 @@ li {
   order: 3;
   width: 325px;
   height: 20px;
-  margin: 0px;
-  padding:0%;
+  margin: 1px;
+  padding: 1px;
 }
 
 .icons:hover {
@@ -190,5 +190,4 @@ li {
 button {
   padding: 0;
   border: none;
-
 }
