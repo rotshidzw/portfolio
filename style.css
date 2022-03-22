@@ -1,181 +1,192 @@
 html {
-    background-image: url(images/header-shapes-mobile.png);
+  background-image: url(images/header-shapes-mobile.png);
 }
 
 .logo {
-    /* My Logo */
-    position: static;
-    top: 10px;
-    left: 12px;
-/* identical to box height, or 111% */
-    display: flex;
-    /* Inside auto layout */
-    flex: none;
-    flex-grow: 0;
-    align-items: center;
-    order: 0;
-    width: 76px;
-    height: 20px;
-    margin: 0 0;
-    font-family: "Crete Round", Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    font-weight: 500;
-    line-height: 15px;
-    /* Primary/B400 */
-    color: #6070ff;
-    text-align: center;
+  /* My Logo */
+  position: static;
+  top: 10px;
+  left: 12px;
+
+  /* identical to box height, or 111% */
+  display: flex;
+
+  /* Inside auto layout */
+  flex: none;
+  flex-grow: 0;
+  align-items: center;
+  order: 0;
+  width: 76px;
+  height: 20px;
+  margin: 0 0;
+  font-family: "Crete Round", Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 15px;
+
+  /* Primary/B400 */
+  color: #6070ff;
+  text-align: center;
 }
+
 .mylogo {
-    text-decoration: none ;
-  }
+  text-decoration: none;
+}
 
 .nav-bar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 100vw;
-    height: 48px;
-    margin-bottom: 12px;
-    background: #faf8f6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100vw;
+  height: 48px;
+  margin-bottom: 12px;
+  background: #faf8f6;
 }
 
-
 h1 {
-    /* Primary Text */
-    position: static;
-    top: 114px;
-    left: 24px;
-    /* or 130% */
-    display: flex;
-    /* Inside auto layout */
-    flex: none;
-    flex-grow: 0;
-    align-items: center;
-    order: 0;
-    width: 327px;
-    height: 150px;
-    margin: 12px 0px;
-    /* Header / 2 */
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 52px;
-    /* Neutrals/N800 */
-    color: #172b4d;
+  /* Primary Text */
+  position: static;
+  top: 114px;
+  left: 24px;
+
+  /* or 130% */
+  display: flex;
+
+  /* Inside auto layout */
+  flex: none;
+  flex-grow: 0;
+  align-items: center;
+  order: 0;
+  width: 327px;
+  height: 150px;
+  margin: 12px 0;
+
+  /* Header / 2 */
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+
+  /* Neutrals/N800 */
+  color: #172b4d;
 }
 
 article {
-    position: static;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 70vw;
-    margin-top: 120px;
+  position: static;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70vw;
+  margin-top: 120px;
 }
 
 h2 {
-    position: static;
-    flex: none;
-    width: 350px;
-    /* Primary/B300 */
-    height: auto;
-   
+  position: static;
+  flex: none;
+  width: 350px;
 
-    font-family: "Crete Round", Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 100;
-    line-height: 25px;
-    color: #7f8cff;
-    letter-spacing: 0.37px;
+  /* Primary/B300 */
+  height: auto;
+  font-family: "Crete Round", Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 25px;
+  color: #7f8cff;
+  letter-spacing: 0.37px;
 }
 
 h3 {
-    position: static;
-    width: 100%;
-    max-width: 100vh;
-    margin: 6px 0 6px 48px;
-    font-family: "Roboto", Arial, Helvetica, sans-serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    color: #4a3a72;
+  position: static;
+  width: 100%;
+  max-width: 100vh;
+  margin: 6px 0 6px 48px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  color: #4a3a72;
 }
 
 p {
-    position: static;
-    top: 276px;
-    left: 24px;
-    /* Primary/B300 */
-    flex: none;
-    flex-grow: 0;
-    order: 0;
-    height: auto;
-    margin: 0 8px;
-    /* Body / 2 - Bolder */
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
-    font-style: normal;
-    /* Primary/B300 */
-    color: #344563;
+  position: static;
+  top: 276px;
+  left: 24px;
+
+  /* Primary/B300 */
+  flex: none;
+  flex-grow: 0;
+  order: 0;
+  height: auto;
+  margin: 0 8px;
+
+  /* Body / 2 - Bolder */
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+
+  /* Primary/B300 */
+  color: #344563;
 }
 
 .test {
-    width: 100%;
-    height: 100%;
-    margin: auto;
+  width: 100%;
+  height: 100%;
+  margin: auto;
 }
 
 ul {
-    position: static;
-    left: 12px;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    max-width: 100vh;
-    padding-inline-start: 0;
-    margin: 6px 0 6px 40px;
-    list-style-type: none;
+  position: static;
+  left: 12px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100vh;
+  padding-inline-start: 0;
+  margin: 6px 0 6px 40px;
+  list-style-type: none;
 }
 
 li {
-    width: 40px;
-    height: 40px;
+  width: 40px;
+  height: 40px;
 }
 
 .media-icon {
-    position: static;
-    top: 500px;
-    left: 12px;
-    /* Inside auto layout */
-    flex: none;
-    flex-grow: 0;
-    order: 3;
-    width: 340px;
-    height: 20px;
-    margin: 12px 0;
+  position: static;
+  top: 500px;
+  left: 12px;
+
+  /* Inside auto layout */
+  flex: none;
+  flex-grow: 0;
+  order: 3;
+  width: 340px;
+  height: 20px;
+  margin: 12px 0;
 }
 
 .icons:hover {
-    filter: sepia(100%) hue-rotate(142deg) saturate(500%);
+  filter: sepia(100%) hue-rotate(142deg) saturate(500%);
 }
 
 .hamburger {
-    position: absolute;
-    right: 24px;
-    width: 16px;
-    height: 12px;
+  position: absolute;
+  right: 24px;
+  width: 16px;
+  height: 12px;
 }
 
 .hamburger:hover {
-    filter: sepia(100%) hue-rotate(142deg) saturate(500%);
+  filter: sepia(100%) hue-rotate(142deg) saturate(500%);
 }
+
 button {
-    padding: 0;
-    border: none;
+  padding: 0;
+  border: none;
 }
