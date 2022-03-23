@@ -6,7 +6,7 @@ header {
   background-image: url(images/header-shapes-mobile.png);
 
   /* Full height */
-  height: 530.20px;
+  height: 530px;
   margin-top: 1px;
 
   /* Center and scale  */
@@ -69,7 +69,7 @@ header {
 }
 
 h1 {
-  color: #172B4D;
+  color: #172b4d;
   font-size: 2.5rem;
   font-weight: 700;
   margin-top: 100px;
