@@ -1,17 +1,20 @@
-html {
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
   background-image: url(images/header-shapes-mobile.png);
 
   /* Full height */
-  width: 380px;
-  height: 600.20px;
- margin-top: 15px;
- margin-left: 30px;
- size: 100%;
-  /* Center and scale  */
+  width: 295px;
+  height: 530.20px;
+  margin-top: 1px;
 
+  /* Center and scale  */
   background-repeat: no-repeat;
-  background-size: cover; 
+  background-size: cover;
 }
+
 .logo {
   /* My Logo */
   position: static;
@@ -30,7 +33,7 @@ html {
   height: 20px;
   margin: 15px;
   font-family: "Crete Round", Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 12px;
   font-weight: 700;
   line-height: 10px;
 
@@ -41,6 +44,7 @@ html {
 
 .links {
   text-decoration: none;
+  margin-top: 8px;
 }
 
 .nav-bar {
@@ -54,36 +58,12 @@ html {
   width: 100vw;
   height: 48px;
   margin-bottom: 12px;
-  background: #faf8f6;
+  /* background: #faf8f6; */
+  background: #ad5c0b;
 }
 
 h1 {
-  /* Primary Text */
-  position: static;
-  top: 114px;
-  left: 24px;
-
-  /* or 130% */
-  display: flex;
-
-  /* Inside auto layout */
-  flex: none;
-  flex-grow: 0;
-  align-items: center;
-  order: 0;
-  width: 325px;
-  height: 150px;
-  margin: 12px;
-
-  /* Header / 2 */
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 52px;
-
-  /* Neutrals/N800 */
-  color: #172b4d;
+  color: #172B4D;
 }
 
 section {
