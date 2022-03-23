@@ -1,0 +1,162 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  background-image: url(images/header-shapes-mobile.png);
+
+  /* Full height */
+  height: 530px;
+  margin-top: 1px;
+
+  /* Center and scale  */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo {
+  /* My Logo */
+  position: static;
+  top: 10px;
+  left: 12px;
+
+  /* identical to box height, or 111% */
+  display: flex;
+
+  /* Inside auto layout */
+  flex: none;
+  flex-grow: 0;
+  align-items: center;
+  order: 0;
+  width: 76px;
+  height: 20px;
+  margin: 15px;
+  font-family: "Crete Round", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 10px;
+
+  /* Primary/B400 */
+  color: #6070ff;
+  text-align: center;
+}
+
+.links {
+  text-decoration: none;
+  margin-top: 8px;
+}
+
+.nav-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100vw;
+  height: 48px;
+  margin-bottom: 12px;
+  background: #faf8f6;
+}
+
+.intro {
+  padding: 0 12px;
+}
+
+h1 {
+  color: #172b4d;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-top: 100px;
+}
+
+section {
+  position: static;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin-top: 120px;
+}
+
+h2 {
+  position: static;
+  flex: none;
+
+  /* Primary/B300 */
+  height: auto;
+  font-family: "Crete Round", Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  color: #7f8cff;
+  letter-spacing: 0.37px;
+}
+
+p {
+  position: static;
+  top: 276px;
+
+  /* Primary/B300 */
+  flex: none;
+  flex-grow: 0;
+  order: 0;
+  height: auto;
+
+  /* Body / 2 - Bolder */
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+
+  /* Primary/B300 */
+  color: #344563;
+  line-height: 1.5;
+}
+
+ul {
+  position: static;
+  display: flex;
+  flex-direction: row;
+  max-width: 100vh;
+  padding-inline-start: 0;
+  margin: 6px 0 6px 40px;
+  list-style-type: none;
+}
+
+li {
+  width: 40px;
+  height: 40px;
+}
+
+.media-icon {
+  position: static;
+  top: 20px;
+
+  /* Inside auto layout */
+  flex: none;
+  flex-grow: 0;
+  order: 3;
+  height: 20px;
+  margin: 1px;
+  padding: 1px 4px;
+}
+
+.icons:hover {
+  filter: sepia(100%) hue-rotate(142deg) saturate(500%);
+}
+
+.hamburger {
+  position: absolute;
+  right: 34px;
+  width: 16px;
+  height: 12px;
+}
+
+.hamburger:hover {
+  filter: sepia(100%) hue-rotate(142deg) saturate(500%);
+}
+
+button {
+  padding: 0;
+  border: none;
+}
