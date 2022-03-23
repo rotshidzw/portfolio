@@ -1,8 +1,17 @@
 html {
   background-image: url(images/header-shapes-mobile.png);
-  background-repeat: no-repeat;
-}
 
+  /* Full height */
+  width: 380px;
+  height: 600.20px;
+ margin-top: 15px;
+ margin-left: 30px;
+ size: 100%;
+  /* Center and scale  */
+
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
 .logo {
   /* My Logo */
   position: static;
@@ -42,7 +51,7 @@ html {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 75vw;
+  width: 100vw;
   height: 48px;
   margin-bottom: 12px;
   background: #faf8f6;
