@@ -1,5 +1,7 @@
 html {
   background-image: url(images/header-shapes-mobile.png);
+  background-repeat: no-repeat;
+ 
 }
 
 .logo {
@@ -41,7 +43,7 @@ html {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 100vw;
+  width: 75vw;
   height: 48px;
   margin-bottom: 12px;
   background: #faf8f6;
@@ -75,6 +77,11 @@ h1 {
   /* Neutrals/N800 */
   color: #172b4d;
 }
+body{
+position:auto;
+
+}
+
 
 section {
   position: static;
