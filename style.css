@@ -128,7 +128,16 @@ ul.media-icon {
   margin: 6px 0 6px 6px;
   list-style-type: none;
 }
-
+.lang li {
+  padding: 5px 10px;
+  margin-right: 20px;
+  border-radius: 8px;
+  background: #ebebff;
+  margin-block-end: 0.01px;
+  margin-block-start: 0.01px;
+  margin-inline-end: 10px;
+  margin-inline-start: 0.01px;
+}
 ul.media-icon li {
   width: 40px;
   height: 40px;
@@ -149,10 +158,6 @@ ul.media-icon li {
   filter: sepia(100%) hue-rotate(142deg) saturate(500%);
 }
 
-button {
-  padding: 0;
-  border: none;
-}
 
 /* second section */
 .link-buttons {
@@ -208,16 +213,7 @@ button {
   justify-content: left;
 }
 
-.lang li {
-  padding: 5px 10px;
-  margin-right: 20px;
-  border-radius: 8px;
-  background: #ebebff;
-  margin-block-end: 0.01px;
-  margin-block-start: 0.01px;
-  margin-inline-end: 10px;
-  margin-inline-start: 0.01px;
-}
+
 
 .about-myself {
   padding-top: 100px;
