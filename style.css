@@ -105,6 +105,7 @@ button {
   color: #6070ff;
   font-size: 20px;
 }
+
 .media-icon {
   position: static;
   top: 20px;
@@ -117,6 +118,7 @@ button {
   margin: 1px;
   padding: 1px 4px;
 }
+
 ul.media-icon {
   position: static;
   display: flex;
@@ -126,10 +128,12 @@ ul.media-icon {
   margin: 6px 0 6px 6px;
   list-style-type: none;
 }
-ul.media-icon li{
+
+ul.media-icon li {
   width: 40px;
   height: 40px;
 }
+
 .icons:hover {
   filter: sepia(100%) hue-rotate(142deg) saturate(500%);
 }
@@ -176,7 +180,6 @@ button {
   width: 380px;
   margin: 0 auto;
   justify-content: center;
-
 }
 
 .work-section {
@@ -188,7 +191,8 @@ button {
   row-gap: 100px;
 }
 
-.cards-work, .about-myself{
+.cards-work,
+.about-myself {
   background: #fff;
   width: 330px;
   padding: 15px;
@@ -221,5 +225,3 @@ button {
   margin: 100px auto;
   border-radius: 0 70px 0 0;
 }
-
-
