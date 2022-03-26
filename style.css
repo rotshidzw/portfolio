@@ -111,6 +111,7 @@ button {
   top: 20px;
 
   /* Inside auto layout */
+
   flex: none;
   flex-grow: 0;
   order: 3;
@@ -160,8 +161,8 @@ ul.media-icon li {
   filter: sepia(100%) hue-rotate(142deg) saturate(500%);
 }
 
-
 /* second section */
+
 .link-buttons {
   width: fit-content;
   cursor: pointer;
@@ -197,6 +198,7 @@ ul.media-icon li {
   padding: 10px;
   row-gap: 100px;
 }
+
 .cards-work,
 .about-myself {
   background: #fff;
