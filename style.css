@@ -252,6 +252,7 @@ ul.media-icon li {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
 }
+
 #Formtitle {
   margin-top: 80px;
   font-family: 'Poppins', sans-serif;
@@ -276,9 +277,11 @@ ul.media-icon li {
   margin-left: 30px;
   margin-bottom: 90px;
 }
-.DesktopNavtext{
-  display:None;
+
+.DesktopNavtext {
+  display: none;
 }
+
 input {
   font-family: "Poppins", sans-serif;
   padding: 15px 10px;
@@ -286,9 +289,11 @@ input {
   margin-bottom: 25px;
   color: black;
 }
+
 input:focus {
   outline: 0;
 }
+
 input ::placeholder {
   color: #0d131f;
   font-family: 'Poppins', sans-serif;
@@ -297,40 +302,45 @@ input ::placeholder {
   font-size: 15px;
   line-height: 24px;
 }
+
 textarea {
   font-family: "Poppins", sans-serif;
   padding: 15px 10px;
   font-size: 17px;
   color: black;
 }
+
 textarea:focus {
   outline: 0;
 }
 
-@media (min-width: 768px) { 
-  html, body {
+@media (min-width: 768px) {
+  html,
+  body {
     margin: 0;
     padding: 0;
   }
- 
-  #Menu_id{
-    display:None;
-  } 
-  .DesktopNavtext{
+
+  #Menu_id {
+    display: none;
+  }
+
+  .DesktopNavtext {
     display: flex;
     justify-content: flex-start;
   }
 
-  .DesktopNavElements{
-    margin:0 40px 0  0;
-    font-family: 'Poppins',sans-serif;
+  .DesktopNavElements {
+    margin: 0 40px 0  0;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
     color: #344563;
   }
-  .contactSection{
+
+  .contactSection {
     background-image: url("images/Contactformdesktop.png");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -338,23 +348,26 @@ textarea:focus {
     padding-top: 10px;
     margin-top: 0;
   }
+
   #Contact-form {
     display: flex;
     flex-direction: column;
     padding: 0 443px 40px 444px;
-    margin-top: 0px;
+    margin-top: 0;
   }
+
   .inputbox,
   #textbox {
     border: 1px solid #cfd8dc;
     border-radius: 8;
   }
+
   #Formtitle {
     padding-top: 80px;
-  } 
-  #contact-form{
+  }
+
+  #contact-form {
     margin: 50px 0 48px 0;
-    padding:0 400px;
+    padding: 0 400px;
   }
 }
-
