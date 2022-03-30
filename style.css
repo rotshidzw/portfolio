@@ -222,3 +222,161 @@ ul.media-icon li {
   margin: 100px auto;
   border-radius: 0 70px 0 0;
 }
+
+.contactSection {
+  background: #6070ff;
+  border-radius: 130px 0 0 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 110px;
+  padding-top: 50px;
+  background-image: url("images/footerbg.png");
+  background-repeat: no-repeat;
+  background-position: 80px 10px;
+}
+
+#Contact-form {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+}
+
+
+#Textareainput {
+  height: 200px;
+}
+
+.inputclass,
+#Textareainput {
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+}
+
+
+
+#Formtitle {
+  margin-top: 80px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+  text-align: center;
+}
+
+#Formtext {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  margin-top: 50px;
+  margin-right: 47px;
+  margin-left: 30px;
+  margin-bottom: 90px;
+}
+.DesktopNavtext{
+  display:None;
+}
+input {
+  font-family: "Poppins", sans-serif;
+  padding: 15px 10px;
+  font-size: 17px;
+  margin-bottom: 25px;
+  color: black;
+}
+input:focus {
+  outline: 0;
+}
+input :placeholder {
+  color: #b3bac5;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+textarea {
+  font-family: "Poppins", sans-serif;
+  padding: 15px 10px;
+  font-size: 17px;
+  color: black;
+}
+textarea:focus {
+  outline: 0;
+}
+
+@media (min-width: 768px) { 
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+ 
+  #Menu_id{
+    display:None;
+  } 
+  .DesktopNavtext{
+    display: flex;
+    justify-content: flex-start;
+  }
+  body{
+    background-image: none;
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: #E5E5E5; 
+  }
+  #Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin: 20px 90px 100px 90px;
+  }
+  .DesktopNavElements{
+    margin:0 40px 0  0;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+ 
+  
+  }
+  .contactSection{
+    background-image: url("images/Contactformdesktop.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 120px;
+    padding-top: 10px;
+    margin-top: 0;
+  }
+  #Contact-form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 443px 40px 444px;
+    margin-top: 0px;
+  }
+  .inputclass,
+  #Textareainput {
+    border: 1px solid #cfd8dc;
+    border-radius: 8;
+  }
+  #Formtitle {
+    padding-top: 80px;
+  } 
+  #Formtext{
+    margin: 50px 0 48px 0;
+    padding:0 400px;
+  }
+ 
+
+  
+
+  
+  
+}
