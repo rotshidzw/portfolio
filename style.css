@@ -74,7 +74,7 @@ button {
 
 .card-container {
   max-width: 375px;
-  height: 100vh;
+  height: 60vh;
   margin: 0 auto;
 }
 
@@ -243,19 +243,15 @@ ul.media-icon li {
   padding-bottom: 40px;
 }
 
-
-#Textareainput {
+#textbox {
   height: 200px;
 }
 
 .inputclass,
-#Textareainput {
+#textbox {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
 }
-
-
-
 #Formtitle {
   margin-top: 80px;
   font-family: 'Poppins', sans-serif;
@@ -293,8 +289,8 @@ input {
 input:focus {
   outline: 0;
 }
-input :placeholder {
-  color: #b3bac5;
+input ::placeholder {
+  color: #0d131f;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -324,18 +320,7 @@ textarea:focus {
     display: flex;
     justify-content: flex-start;
   }
-  body{
-    background-image: none;
-    max-width: 100%;
-    overflow-x: hidden;
-    background-color: #E5E5E5; 
-  }
-  #Header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center; 
-    margin: 20px 90px 100px 90px;
-  }
+
   .DesktopNavElements{
     margin:0 40px 0  0;
     font-family: 'Poppins',sans-serif;
@@ -344,8 +329,6 @@ textarea:focus {
     font-size: 15px;
     line-height: 20px;
     color: #344563;
- 
-  
   }
   .contactSection{
     background-image: url("images/Contactformdesktop.png");
@@ -361,22 +344,17 @@ textarea:focus {
     padding: 0 443px 40px 444px;
     margin-top: 0px;
   }
-  .inputclass,
-  #Textareainput {
+  .inputbox,
+  #textbox {
     border: 1px solid #cfd8dc;
     border-radius: 8;
   }
   #Formtitle {
     padding-top: 80px;
   } 
-  #Formtext{
+  #contact-form{
     margin: 50px 0 48px 0;
     padding:0 400px;
   }
- 
-
-  
-
-  
-  
 }
+
