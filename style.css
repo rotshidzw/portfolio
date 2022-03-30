@@ -359,7 +359,7 @@ textarea:focus {
   .inputbox,
   #textbox {
     border: 1px solid #cfd8dc;
-    border-radius: 8px;
+    border-radius: 9px;
   }
 
   #Formtitle {
