@@ -1,218 +1,274 @@
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio Project</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap" rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/25935046d9.js" crossorigin="anonymous"></script>
+  </head>
 
-<html  lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="style.css">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://kit.fontawesome.com/1dea6ac3ad.js" crossorigin="anonymous"></script>
-        <title>Portfolio</title>
-    </head>
-    <body>
-        <section class="Section-1">
-        <header id="Header"> 
-            <h3>  <a href="#" id="logo" class="desi">Chester</a></h3> 
-               <nav>
-                <ul class="desktop desi">
-                    <li class="nev-list">About</li>
-                    <li class="nev-list">Portfolio</li>
-                    <li class="nev-list">Contact</li>
-                </ul>
-                <i class="fa-solid fa-bars" id="Menu_id"></i>
-               </nav>
-        </header>
-        <section class="header-section">
-            <h1>I’m Rotshi,
-                <br> Glad to see you!</h1>
-            <p>I’m a software developer! I can help you build a product , 
-                feature or website Look through some of my work and experience! 
-                If you like what you see and have a project you need 
-                coded, don’t hestiate to contact me.</p>
-            <h3>LET’S CONNECT</h3>
-         
-            <ul class="icon-list desi">
-                <li>
-                    <a href="# " class="Socialdesi ">
-                        <img src="./images/twitter.png " alt="twitter ">
-                    </a>
-                </li>
-                <li>
-                    <a href="# " class="Socialdesi ">
-                        <img src="./images/Linkedin-icon.png " alt="linkedin ">
-                    </a>
-                </li>
-                <li>
-                    <a href="# " class="Socialdesi ">
-                        <img src="./images/medium.png " alt="medium ">
-                    </a>
-                </li>
-                <li>
-                    <a href="# " class="Socialdesi ">
-                        <img src="./images/git.png " alt="git ">
-                    </a>
-                </li>
-                <li>
-                    <a href="# " class="Socialdesi ">
-                        <img src="./images/engelist.png " alt="angelist ">
-                    </a>
-                </li>
+  <body>
+   <nav class="nav">
+      <p class="logo">chester</p>
+      <img src="images/Union.png" alt="logo" class="hamburger open-menu" />
+      <ul class="item-nav">
+        <li><a href="#work">Portfolio</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+<main class="section-one">
+    <header class="header">
+      <div class="header-text">
+        <h1 class="title">I'm rotshi Glad to see you!</h1>
+        <p class="paragraph-text">
+          I’m a software developer! I can help you build a product , feature or
+          website Look through some of my work and experience! If you like what
+          you see and have a project you need coded, don’t hestiate to contact
+          me.
+        </p>
+        <a href="#" class="link-btn">LET'S CONNECT</a>
+        <ul class="social-media">
+          <li>
+            <a href="# " class="icons ">
+                <img src="./images/twitter.png " alt="twitter ">
+            </a>
+        </li>
+        <li>
+            <a href="# " class="icons ">
+                <img src="./images/Linkedin-icon.png " alt="linkedin ">
+            </a>
+        </li>
+        <li>
+            <a href="# " class="icons ">
+                <img src="./images/medium.png " alt="medium ">
+            </a>
+        </li>
+        <li>
+            <a href="# " class="icons ">
+                <img src="./images/git.png " alt="git ">
+            </a>
+        </li>
+        <li>
+            <a href="# " class="icons ">
+                <img src="./images/engelist.png " alt="angelist ">
+            </a>
+        </li>
+      </div>
+    </header>
 
-            </ul>  
-     
-        </section>
+    <section class="work" id="work">
+      <div class="card card-1">
+        <img class="card-img popup-img" src="images/snapshoot4.png" alt="Tonic"/>
+        <div class="card-content">
+          <h2 class="heading-secondary">Tonic</h2>
+          <ul class="card-info">
+            <li>CANOPY</li>
+            <li><img src="images/Counter.svg" alt="dot" class="card-info-dot"/></li>
+            <li class="input-text">Back End Dev</li>
+            <li><img src="images/Counter.svg" alt="dot" class="card-info-dot"/></li>
+            <li class="input-text">2022</li>
+          </ul>
+          <p class="text-secondary">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+          <ul class="card-tags">
+            <li>html</li>
+            <li>css</li>
+            <li>javaScript</li>
+          </ul>
+          <div class="card-button" id="btn-1">
+            <button class="button" type="button">See Project</button>
+          </div>
+        </div>
+      </div>
+      <div class="card card-2">
+        <img class="card-img" src="images/snapshoot3.png" alt="Tonic" />
+        <div class="card-content">
+          <h2 class="heading-secondary">Multi-Post Stories</h2>
+          <ul class="card-info">
+            <li>FACEBOOK</li>
+            <li><img src="images/Counter.svg" alt="dot" class="card-info-dot"/></li>
+            <li class="input-text">Full Stack Dev</li>
+            <li><img src="images/Counter.svg" alt="dot" class="card-info-dot"/></li>
+            <li class="input-text">2022</li>
+          </ul>
+          <p class="text-secondary">
+            Experimental content creation feature that allows users to add to an
+            existing story over the course of a day without spamming their
+            friends.
+          </p>
+          <ul class="card-tags">
+            <li>html</li>
+            <li>Ruby on rails</li>
+            <li>css</li>
+            <li>javaScript</li>
+          </ul>
+          <div class="card-button">
+            <button class="button" id="btn-2" type="button">See Project</button>
+          </div>
+        </div>
+      </div>
+      <div class="card card-3">
+        <img class="card-img" src="images/snapshoot.png" alt="Tonic"/>
+        <div class="card-content">
+          <h2 class="heading-secondary">Facebook 360</h2>
+          <ul class="card-info">
+            <li>FACEBOOK</li>
+            <li><img src="images/Counter.svg" alt="dot" class="card-info-dot"/></li>
+            <li class="input-text">Back End Dev</li>
+            <li><img src="images/Counter.svg" alt="dot" class="card-info-dot"/></li>
+            <li class="input-text">2022</li>
+          </ul>
+          <p class="text-secondary">
+            Exploring the future of media in Facebook's first Virtual Reality
+            app; a place to discover and enjoy 360 photos and videos on Gear VR.
+          </p>
+          <ul class="card-tags">
+            <li>html</li>
+            <li>Ruby on rails</li>
+            <li>css</li>
+            <li>javaScript</li>
+          </ul>
+          <div class="card-button" id="btn-3">
+            <button class="button" type="button">See Project</button>
+          </div>
+        </div>
+      </div>
+      <div class="card card-4">
+        <img class="card-img" src="images/snapshoot1.png" alt="Tonic"/>
+        <div class="card-content">
+          <h2 class="heading-secondary">Uber Navigation</h2>
+          <ul class="card-info">
+            <li>Uber</li>
+            <li><img src="images/Counter.svg" alt="dot" class="card-info-dot"/>
+            </li>
+            <li class="input-text">Lead Developer</li>
+            <li>
+              <img src="images/Counter.svg" alt="dot" class="card-info-dot"/></li>
+            <li class="input-text">2022</li>
+          </ul>
+          <p class="text-secondary">
+            A smart assistant to make driving more safe, efficient, and fun by
+            unlocking your most expensive computer: your car.
+          </p>
+          <ul class="card-tags">
+            <li>html</li>
+            <li>Ruby on rails</li>
+            <li>css</li>
+            <li>javaScript</li>
+          </ul>
+          <div class="card-button" id="btn-4">
+            <button class="button" type="button">See Project</button>
+          </div>
+        </div>
+      </div>
     </section>
-        <section id="work">
-            <div  class="card">
-                <img class="grid-card"  src="images/test1.png"  alt="FirstProjectScreenshot">
-                <div class="TextArea">
-                    <h3>Tonic</h3>
-                    <ul class="infolist">
-                        <li class="desi font ">CANOPY</li>
-                        <li class="Bulledesi">Back End Dev</li>
-                        <li class="Bulledesi">2015</li>
-                    </ul>
-                    <p>A daily selection of privately personalized reads; 
-                        no accounts <br>  or sign-ups required.</p>
-                        <ul class="desi infolist">
-                            <li class="liststyle desi span">Html</li> 
-                           <li class="liststyle desi span">Css</li> 
-                             <li class="liststyle desi span">Javascript</li> 
-                        </ul>
-                        <button class="btn" >See Project</button>
-                </div>
-            </div>
-            <div  class="card">
-                <img class="grid-card"  src="images/Snapshoot2Portfolio.png"  alt="SecondProjectScreenShot">
-                <div class="TextArea">
-                    <h3>Multi-Post
-                       <br> Stories</h3>
-                    <ul class="infolist">
-                        <li class="desi font ">CANOPY</li>
-                        <li class="Bulledesi">Back End Dev</li>
-                        <li class="Bulledesi">2015</li>
-                    </ul>
-                    <p>Experimental content creation feature that allows users to add to an existing story over<br>
-                         the course of a day without spamming their friends.</p>
-                        <ul class="desi infolist">
-                            <li class="liststyle desi span">Html</li> 
-                            <li class="liststyle desi span">Css</li> 
-                            <li class="liststyle desi span">Javascript</li> 
-                        </ul>
-                        <button class="btn" >See Project</button>
-                </div>
-            </div>
-            <div  class="card">
-                <img class="grid-card"  src="images/Snapshoot3Portfolio.png"  alt="ThirdProjectScreenShot">
-                <div class="TextArea">
-                    <h3>Tonic</h3>
-                    <ul class="infolist">
-                        <li class="desi font ">CANOPY</li>
-                        <li class="Bulledesi">Back End Dev</li>
-                        <li class="Bulledesi">2015</li>
-                    </ul>
-                    <p>Exploring the future of media in Facebook's first Virtual Reality app; a place<br> 
-                        to discover and enjoy 360 photos and videos on Gear VR..</p>
-                        <ul class="desi infolist">
-                            <li class="liststyle desi span">Html</li> 
-                            <li class="liststyle desi span">Css</li> 
-                             <li class="liststyle desi span">Javascript</li> 
-                        </ul>
-                        <button class="btn">See Project</button>
-                </div>
-            </div>
-            <div  class="card">
-                <img class="grid-card"  src="images/Snapshoot5Portfolio.png"  alt="FourthProjectScreenshoot">
-                <div class="TextArea">
-                    <h3>Multi-Post
-                      <br>Stories</h3>
-                    <ul class="infolist">
-                        <li class="desi font ">CANOPY</li>
-                        <li class="Bulledesi">Back End Dev</li>
-                        <li class="Bulledesi">2015</li>
-                    </ul>
-                    <p>A smart assistant to make driving more safe, efficient,<br> 
-                        and fun by unlocking your most expensive computer: your car..</p>
-                        <ul class="desi infolist">
-                            <li class="liststyle desi span">Html</li> 
-                            <li class="liststyle desi span">Css</li> 
-                             <li class="liststyle desi span">Javascript</li> 
-                        </ul>
-                        <button class="btn">See Project</button>
-                </div>
-            </div>
-        </section>
-        <section class="about-section">
-        <div id="About" class="header-section">               
-            <h2>About
-                <br> Myself</h2>
-            <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
-                don’t hestiate to contact me.</p>
-            <h3>LET’S CONNECT</h3>
-            <ul class="icon-list desi">
-                <li>
-                    <a href="# " class="Socialdesi ">
-                        <img src="./images/twitter.png " alt="twitter ">
-                    </a>
-                </li>
-                <li>
-                    <a href="# " class="Socialdesi ">
-                        <img src="./images/Linkedin-icon.png " alt="linkedin ">
-                    </a>
-                </li>
-                <li>
-                    <a href="# " class="Socialdesi ">
-                        <img src="./images/medium.png " alt="medium ">
-                    </a>
-                </li>
-                <li>
-                    <a href="# " class="Socialdesi ">
-                        <img src="./images/git.png " alt="git ">
-                    </a>
-                </li>
-                <li>
-                    <a href="# " class="Socialdesi ">
-                        <img src="./images/engelist.png " alt="angelist ">
-                    </a>
-                </li>
-            </ul>  
-            <button class="btn b" >Get My resume</button>   
-        </div>    
-        <div class="Skills" >
-         
-                  <div class="desi">Languages 
-                  <i class="fa-solid fa-chevron-down"></i></div> 
-                  <img  class="skill-set lang-list" src="images/js.png" alt="JsIcon">
-                  <img  class="skill-set lang-list" src="images/html.png" alt="HtmlIcon">   
-                  <img  class="skill-set lang-list" src="images/css.png" alt="HtmlIcon">
-                  <ul class="icon-list">
-                    <li  class="desi skill-set lang-list">JavaScript</li>
-                    <li  class="desi skill-set lang-list">Html</li>
-                    <li  class="desi skill-set lang-list">Css</li>
-                  </ul>
-                 
-                  <div class="desi">Frameworks 
-                  <i class="fa-solid fa-angle-right"></i></div>   
-                  <HR>     
-                  <div class="desi">Skills 
-                  <i class="fa-solid fa-angle-right"></i></div>     
-                  <HR> 
-                 
-                </div>
-        </section>
 
-        <section class="contactSection" >
-            <h2 id="Formtitle">Contact me</h2>
-            <p id="Formtext">If you have an application you are interested in developing, 
-                  a feature that you need built or a project that needs coding. 
-                  I’d love to help with it </p>
-            <form id="Contact-form" method="post" action="https://formspree.io/f/mrgjlvye" > 
-                <input class="inputclass" type="text" id="name" name="name"  required placeholder="Your name" maxlength="30"> 
-                <input class="inputclass" type="email" id="email" name="email" required placeholder="username@example.com" >
-                <textarea id="Textareainput" name="user_message" required placeholder="Write your message here" maxlength="500"></textarea>
-                <button id="touchbutton" class="btn">Get It Touch</button>
-            </form>
-        </section>
-    </body>
-</html>  
+    <section class="about" id="about">
+      <div class="about-text">
+        <div class="first-part">
+          <h2 class="title">About Myself</h2>
+          <p class="paragraph-text">
+            Hello I’m a software developer! I can help you build a product ,
+            feature or website Look through some of my work and experience! If
+            you like what you see and have a project you need coded, don’t
+            hestiate to contact me.
+          </p>
+          <a href="#" class="link-btn">LET'S CONNECT</a>
+          <ul class="social-media">
+            <li>
+              <a href="# " class="icons ">
+                  <img src="./images/twitter.png " alt="twitter ">
+              </a>
+          </li>
+          <li>
+              <a href="# " class="icons ">
+                  <img src="./images/Linkedin-icon.png " alt="linkedin ">
+              </a>
+          </li>
+          <li>
+              <a href="# " class="icons ">
+                  <img src="./images/medium.png " alt="medium ">
+              </a>
+          </li>
+          <li>
+              <a href="# " class="icons ">
+                  <img src="./images/git.png " alt="git ">
+              </a>
+          </li>
+          <li>
+              <a href="# " class="icons ">
+                  <img src="./images/engelist.png " alt="angelist ">
+              </a>
+          </li>
+          </ul>
+          <div class="about-button">
+            <a href="#" class="button">Get my resume</a>
+          </div>
+        </div>
+        <div class="skills-list">
+          <div class="list-box">
+            <div class="list-btn">
+              Languages
+              <i class="fa fa-angle-down fa-lg angle-arrow" aria-hidden="true"></i>
+            </div>
+            <ul class="list-lang">
+              <li>
+                <img src="images/js.png" alt=""/>JavaScript</li>
+              <li><img src="images/html.png" alt="" />HTML</li>
+              <li><img src="images/css.png" alt="" />CSS</li>
+            </ul>
+          </div>
+          <div class="list-box">
+            <div class="list-btn">
+              Frameworks
+              <i class="fa fa-angle-right fa-lg angle-arrow" aria-hidden="true"></i>
+            </div>
+          </div>
+          <div class="list-box">
+            <div class="list-btn">
+              Skills
+              <i class="fa fa-angle-right fa-lg angle-arrow" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+    <div class="contact__container">
+        <h2 class="heading-3">Contact me</h2>
+        <p class="secondary-text">
+          If you have an application you are interested in developing, a feature
+          that you need built or a project that needs coding. I’d love to help
+          with it
+        </p>
+      <form action="https://formspree.io/f/mzbyjjjd" class="contact_form" method="post">
+        <ul>
+          <li>
+            <input class = "contact_name" type="text" id="name" name="name" placeholder="rotshidzwa" maxlength="30" required />
+          </li>
+          <li>
+            <input class="email_address" type="email" id="email" name="email" placeholder="rochidzwa@gmail.com" required />
+          </li>
+          <li>
+            <textarea class="contact_message" id="message" placeholder="Write your message here" maxlength="500" required></textarea>
+          </li>
+          <li class="form_li_submit">
+            <p class="validation_message"></p>
+            <input type="submit" class="submit_btn" value="Get In Touch" />
+          </li>
+        </ul>
+      </form>
+    </div>
+    </section> 
+    </main>
+  </body>
+</html>
