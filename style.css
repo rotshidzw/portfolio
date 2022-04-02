@@ -35,7 +35,7 @@ ul {
   border: 0.1rem solid #6070ff;
   border-radius: 0.8rem;
   padding: 1.2rem;
-  transition: all 0.30s;
+  transition: all 0.3s;
 }
 
 .button:hover {
@@ -54,7 +54,7 @@ ul {
   color: #5e6c84;
   border: 0.1rem solid #c1c7d0;
   transition: none;
-  pointer-events:painted;
+  pointer-events: painted;
 }
 
 .nav {
@@ -129,13 +129,36 @@ ul {
 }
 
 @keyframes example {
-  
-    0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:yellow; left:200px; top:0px;}
-    50%  {background-color:blue; left:200px; top:200px;}
-    75%  {background-color:green; left:0px; top:200px;}
-    100% {background-color:red; left:0px; top:0px;}
+  0% {
+    background-color: red;
+    left: 0;
+    top: 0;
   }
+
+  25% {
+    background-color: yellow;
+    left: 200px;
+    top: 0;
+  }
+
+  50% {
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+  }
+
+  75% {
+    background-color: green;
+    left: 0;
+    top: 200px;
+  }
+
+  100% {
+    background-color: red;
+    left: 0;
+    top: 0;
+  }
+}
 
 .item-nav {
   display: none;
