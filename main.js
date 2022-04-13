@@ -9,3 +9,7 @@ openMenu.addEventListener('click', () => {
 closeMenu.addEventListener('click', () => {
   mobileMenu.style.display = 'none';
 });
+
+mobileMenu.addEventListener('click', () => {
+  mobileMenu.style.display = 'none';
+});
