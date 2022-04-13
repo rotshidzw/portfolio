@@ -42,7 +42,8 @@ Use git clone <filename> to clone the repository.
 - Twitter: [@footballlz](https://twitter.com/footballlz)
 - LinkedIn: [Rochidzwa Chester](https://www.linkedin.com/in/rochidzwa-chester-8062b6211/)
 
-
+ **Author1**
+ https://github.com/Richez003
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
