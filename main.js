@@ -180,3 +180,15 @@ button4.addEventListener('click', () => {
 
 popupOverlay.addEventListener('click', closePopUp);
 btnClosePop.addEventListener('click', closePopUp);
+
+const contactForm = document.querySelector('.contact_form');
+const emailInput = document.querySelector('.email_address');
+const validationMessage = document.querySelector('.validation_message');
+contactForm.addEventListener('submit', (event) => {
+  const strInput = emailInput.value;
+  if (/[A-Z]/.test(strInput)) {
+    validationMessage.innerHTML = 'Your email address should not contain upper case letters';
+    validationMessage.classList.add('shake');
+    event.preventDefault();
+  }
+});
