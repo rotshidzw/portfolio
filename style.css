@@ -19,6 +19,12 @@ body {
   height: 100vh;
 }
 
+@keyframes rotation {
+  50% {
+    transform: rotate(360deg);
+  }
+}
+
 .section-one {
   filter: none;
 }
@@ -208,7 +214,7 @@ ul {
   color: #6070ff;
 }
 
-.text-secondary.mob {
+.sec-text.mob {
   overflow: hidden;
   height: 10rem;
   margin-bottom: 2rem;
@@ -220,10 +226,13 @@ ul {
   margin-bottom: 1rem;
 }
 
+.btn-element li {
+  margin: 30px;
+}
+
 .btn-element {
   display: inline-flex;
   flex-direction: row;
-  margin-right: 5%;
   gap: 1rem;
 }
 
@@ -295,7 +304,7 @@ ul {
   width: 0.8rem;
 }
 
-.text-secondary {
+.sec-text {
   font-size: 1.5rem;
   font-weight: 400;
   color: #344563;
@@ -663,7 +672,7 @@ textarea {
     gap: 2.4rem;
   }
 
-  .text-secondary {
+  .sec-text {
     width: 46.4rem;
   }
 
@@ -723,30 +732,6 @@ textarea {
   }
 }
 
-@media screen and (min-width: 1200px) {
-  html {
-    font-size: 62.5%;
-  }
-}
-
-@media screen and (min-width: 1800px) {
-  html {
-    font-size: 75%;
-  }
-}
-
-@media screen and (min-width: 2100px) {
-  html {
-    font-size: 81.25%;
-  }
-}
-
-@media screen and (min-width: 2500px) {
-  html {
-    font-size: 87.5%;
-  }
-}
-
 .close-x {
   display: flex;
   justify-content: end;
@@ -801,4 +786,180 @@ textarea {
 .logo-text {
   color: #fff;
   fill: #fff;
+}
+
+.parent_main {
+  filter: none;
+}
+
+.blur {
+  filter: blur(10px);
+}
+
+@keyframes rotation {
+  50% {
+    transform: rotate(360deg);
+  }
+}
+
+.popup-over {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(24, 24, 24, 0.158);
+  backdrop-filter: blur(0.6rem);
+  z-index: 100;
+  overflow: auto;
+}
+
+.popup {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  border-radius: 16px;
+  animation-name: animatetop;
+  animation-duration: 0.5s;
+}
+
+@keyframes animatetop {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.popup-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  gap: 5rem;
+}
+
+.popup-btn {
+  height: 1.5rem;
+  position: absolute;
+  width: 30%;
+  right: 0.5rem;
+  top: 1.8rem;
+}
+
+@keyframes shake {
+  0% { transform: translate(2px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { -webkit-transform: translate(-3px, 0) rotate(1deg); }
+  30% { -webkit-transform: translate(0, 2px) rotate(0deg); }
+  40% { -webkit-transform: translate(1px, -1px) rotate(1deg); }
+  50% { -webkit-transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
+  70% { -webkit-transform: translate(2px, 1px) rotate(-1deg); }
+  80% { -webkit-transform: translate(-1px, -1px) rotate(1deg); }
+  90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
+  100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+@media only screen and (min-width: 992px) {
+  html {
+    font-size: 50%;
+  }
+
+  /* POPUP  start */
+
+  .card.popup.desktop {
+    height: 73rem;
+    width: 100rem;
+  }
+
+  .card-content.desktop {
+    padding: 0;
+    display: flex;
+  }
+
+  .heading-secondary.desktop {
+    margin-top: -1rem;
+  }
+
+  .card-info.desktop {
+    margin-top: -3rem;
+  }
+
+  .card-img.desktop {
+    margin-top: -2rem;
+    height: 35rem;
+    width: 95rem;
+  }
+
+  .desktop-pop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+  .first {
+    width: 70%;
+  }
+
+  .sec-text.desktop {
+    width: 100%;
+    height: 20rem;
+  }
+
+  .second {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: -19px 0 29px 4px;
+  }
+
+  .card-tags.desktop {
+    display: flex;
+    justify-content: center;
+    margin-left: -1px;
+  }
+
+  .popup-button.desktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .button.btn-element.desktop {
+    font-size: 1.3rem;
+  }
+
+  @media screen and (min-width: 1200px) {
+    html {
+      font-size: 62.5%;
+    }
+  }
+
+  @media screen and (min-width: 1800px) {
+    html {
+      font-size: 75%;
+    }
+  }
+
+  @media screen and (min-width: 2100px) {
+    html {
+      font-size: 81.25%;
+    }
+  }
+
+  @media screen and (min-width: 2500px) {
+    html {
+      font-size: 87.5%;
+    }
+  }
 }
