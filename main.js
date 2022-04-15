@@ -14,7 +14,7 @@ mobileMenu.addEventListener('click', () => {
   mobileMenu.style.display = 'none';
 });
 const data = {
-  proj1: {
+  project1: {
     name: 'Tonic',
     img: 'images/snapshoot4.png',
     companyName: 'CANOPY',
@@ -27,7 +27,7 @@ const data = {
     demoLink: 'https://rotshidzw.github.io/portfolio/',
   },
 
-  proj2: {
+  project2: {
     name: 'Multi-Post Stories',
     img: 'images/snapshoot3.png',
     companyName: 'FACEBOOK',
@@ -40,7 +40,7 @@ const data = {
     demoLink: 'https://rotshidzw.github.io/portfolio/',
   },
 
-  proj3: {
+  project3: {
     name: 'Facebook 360',
     img: 'images/snapshoot.png',
     companyName: 'FACEBOOK',
@@ -52,7 +52,7 @@ const data = {
     sourceLink: 'hhttps://github.com/rotshidzw/portfolio',
     demoLink: 'https://rotshidzw.github.io/portfolio/',
   },
-  proj4: {
+  project4: {
     name: 'Uber Navigation',
     img: 'images/snapshoot1.png',
     companyName: 'Uber',
@@ -90,7 +90,7 @@ function openPopUp() {
 function changePopup(order) {
   tags.innerHTML = '';
 
-  const proj = data[`proj${order}`];
+  const proj = data[`project${order}`];
   nameID.innerHTML = proj.name;
   img.src = proj.img;
   companyName.innerHTML = proj.companyName;
@@ -111,25 +111,25 @@ function changePopup(order) {
     <div class="card popup desktop">
       <div>
         <div class="card-content desktop">
-          <h3 class="heading-secondary desktop">${proj[i].nameID}</h3>
+          <h3 class="heading-secondary desktop">${project[i].nameID}</h3>
           <span> <a onclick="closePopUp()" href="javascript:void(0)" class="popup-btn">X</a></span>
       </div>
       <ul class="card-info desktop">
-      <li id="companyName">${proj[i].companyName}CANOPY</li>
+      <li id="companyName">${project[i].companyName}CANOPY</li>
       <li><img src="images/Counter.svg" alt="dot" class="card-info-dot" /></li>
-      <li class="input-text" id="job"> ${proj[i].job} Back End Dev</li>
+      <li class="input-text" id="job"> ${project[i].job} Back End Dev</li>
       <li><img src="images/Counter.svg" alt="dot" class="card-info-dot" /></li>
-      <li class="input-text" id="data">${proj[i].year} 2022</li>
+      <li class="input-text" id="data">${project[i].year} 2022</li>
     </ul>
       </div>
       <div class="card-img desktop" id="img">
-          <img src="${proj[i].img}" class="flex-item1" alt="${proj[i].nameID} proj screenshot"/>
-          <img src="${proj[i].img}" class="desktop-item1" alt="${proj[i].nameID} proj screenshot"/>
+          <img src="${project[i].img}" class="flex-item1" alt="${project[i].nameID} project screenshot"/>
+          <img src="${project[i].img}" class="desktop-item1" alt="${project[i].nameID} project screenshot"/>
       </div>
       <div class="desktop-pop">
           <div class="first">
             <p "sec-text mob desktop" id="descript">
-              ${proj[i].descript}
+              ${project[i].descript}
             </p>
           </div>
           <div class="second">
@@ -140,10 +140,10 @@ function changePopup(order) {
               ${tags}
               </ul>
               <div class="btn-element">
-                <a href="${proj[i].seeLive}" class="btn-live">See Live
+                <a href="${project[i].seeLive}" class="btn-live">See Live
                   <i class="fa fa-external-link" aria-hidden="true"></i>
                 </a>
-                <a href="${proj[i].seeSource}" class="btn-src-link">See Source
+                <a href="${project[i].seeSource}" class="btn-src-link">See Source
                   <i class="fa fa-github-square" aria-hidden="true"></i>
                 </a>
             </div>
