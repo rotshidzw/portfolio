@@ -10,8 +10,56 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap" rel="stylesheet"/>
     <script src="https://kit.fontawesome.com/25935046d9.js" crossorigin="anonymous"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CCWSLMQCLG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){window.dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CCWSLMQCLG');
+</script>
   </head>
   <body>
+<!--popup-->
+
+<div class="popup-over hidden" id="popup">
+  <div class="card popup desktop">
+    <div class="card-content desktop">
+      <img src="images/popupClose-icon.svg" alt="close-overlay" class="popup-btn" />
+      <h2 class="heading-secondary desktop">Tonic</h2>
+      <ul class="card-info desktop">
+        <li id="companyName">CANOPY</li>
+        <li><img src="images/Counter.svg" alt="dot" class="card-info-dot" /></li>
+        <li class="input-text" id="job">Back End Dev</li>
+        <li><img src="images/Counter.svg" alt="dot" class="card-info-dot" /></li>
+        <li class="input-text" id="data">2022</li>
+      </ul>
+      <img class="card-img desktop" id="img" src="images/snapshoot4.png" alt="Tonic"/>
+      <div class="desktop-pop">
+        <div class="first">
+          <p class="sec-text mob desktop" id="descript"></p>
+        </div>
+        <div class="second">
+          <ul class="card-tags desktop" id="tags"></ul>
+          <div class="line"></div>
+          <div class="popup-button desktop">
+            <ul>
+            <li class="btn-element">
+              <form class="btn-live" action="#">
+            <button type="submit" class="button btn-live desktop">See Live<img src="images/Live-icon.svg" alt="live"/></button>
+          </form>
+          <form class="btn-src-link" action="#">
+            <button type="submit" class="button btn-src-link desktop">See Source<img src="images/Github-icon.svg" alt="git"/></button>
+          </form>
+          </li>
+        </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--end popup-->
    <nav class="nav">
       <p class="logo">chester</p>
       <img src="images/Union.png" alt="logo" class="hamburger open-menu logo-text" />
@@ -83,7 +131,7 @@
             <li><img src="images/Counter.svg" alt="dot" class="card-info-dot"/></li>
             <li class="input-text">2022</li>
           </ul>
-          <p class="text-secondary">
+          <p class="sec-text">
             A daily selection of privately personalized reads; no accounts or
             sign-ups required.
           </p>
@@ -108,7 +156,7 @@
             <li><img src="images/Counter.svg" alt="dot" class="card-info-dot"/></li>
             <li class="input-text">2022</li>
           </ul>
-          <p class="text-secondary">
+          <p class="sec-text">
             Experimental content creation feature that allows users to add to an
             existing story over the course of a day without spamming their
             friends.
@@ -135,7 +183,7 @@
             <li><img src="images/Counter.svg" alt="dot" class="card-info-dot"/></li>
             <li class="input-text">2022</li>
           </ul>
-          <p class="text-secondary">
+          <p class="sec-text">
             Exploring the future of media in Facebook's first Virtual Reality
             app; a place to discover and enjoy 360 photos and videos on Gear VR.
           </p>
@@ -163,7 +211,7 @@
               <img src="images/Counter.svg" alt="dot" class="card-info-dot"/></li>
             <li class="input-text">2022</li>
           </ul>
-          <p class="text-secondary">
+          <p class="sec-text">
             A smart assistant to make driving more safe, efficient, and fun by
             unlocking your most expensive computer: your car.
           </p>
